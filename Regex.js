@@ -14,5 +14,5 @@
             console.error(e);
         }
     }
-    validateWithoutSpace();
+    validateWithoutSpace(); 
 }
