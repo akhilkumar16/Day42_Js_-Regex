@@ -71,7 +71,7 @@
     validatePINCode();
 }
 //UC5//
-let validatePINCode = () => {
+let EmailId = () => {
     console.log("\n email id given");
     try {
         let emailPattern = new RegExp("^(abc).?[a-z]{3,}[@](bridgelabz).?(co).?[a-z]{2,}$");
@@ -83,4 +83,20 @@ let validatePINCode = () => {
     catch (e) {
         console.error(e);
     }
+}
+//UC6//
+{
+    let EmailId = () => {
+        console.log("\n email id given");
+    try {
+        let emailPattern = new RegExp("^(abc).?[a-z]{3,}[@](bridgelabz).?[a-z]{2,}$");
+        if (emailPattern.test(emailId))
+            console.log('Email id is valid');
+        else
+            throw 'Error! Email id is not valid';
+    }
+    catch (e) {
+        console.error(e);
+    }
+}
 }
