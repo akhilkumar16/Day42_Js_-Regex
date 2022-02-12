@@ -71,7 +71,7 @@
     validatePINCode();
 }
 //UC5//
-let validatePINCode = () => {
+let EmailId = () => {
     console.log("\n email id given");
     try {
         let emailPattern = new RegExp("^(abc).?[a-z]{3,}[@](bridgelabz).?(co).?[a-z]{2,}$");
