@@ -116,3 +116,19 @@ let EmailId = () => {
     }
 }
 }
+//UC8//
+{
+    let EmailId = () => {
+    console.log("\n email id given");
+    try {
+        let emailPattern = new RegExp("^(abc)[\. _ + -]{1}[a-z]{3,}[@](bridgelabz).?(co).?[a-z]{2,}$");
+        if (emailPattern.test(emailId))
+            console.log('Email id is valid');
+        else
+            throw 'Error! Email id is not valid';
+    }
+    catch (e) {
+        console.error(e);
+    }
+}
+}
